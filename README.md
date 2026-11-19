@@ -608,6 +608,10 @@ For example, if you want to know which packages use the `systemd` flag we simply
 
 ```shell
 quse systemd
+```
+IMPORTANT -> Since we use systemd-boot, we also need it to be emerged
+
+```shell
 echo 'sys-apps/systemd boot' >> /etc/portage/package.use/systemd
 ```
 
