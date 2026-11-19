@@ -1142,6 +1142,11 @@ Name=en*
 [Network]
 DHCP=yes
 ```
+Also create a systemd machine ID
+
+```shell
+systemd-machine-id-setup
+```
 
 And then tell systemd to manage and start that service:
 
